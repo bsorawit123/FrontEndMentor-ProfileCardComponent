@@ -8,28 +8,46 @@
   
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Sorawit Phattharakundilok</a>.
+  <div class="background">
+      <img src="./images/bg-pattern-top.svg" alt="" class="bg-top">
+      <img src="./images/bg-pattern-bottom.svg" alt="" class="bg-bottom">
   </div>
+
+  <div class="card">
+    <div class="card-header">
+      <img src="./images/bg-pattern-card.svg" alt="">
+    </div>
+    <div class="card-img">
+      <img src="./images/image-victor.jpg" alt="">
+    </div>
+    <div class="card-content">
+      <div class="card-content-title">
+        <h2>Victor Crest <span>26</span></h2>
+        <p>London</p>
+      </div>
+      <div class="card-content-stat">
+        <div class="follower">
+          <h2>80K</h2>
+          <p>Followers</p> 
+        </div>
+        <div class="like">
+          <h2>803K</h2>
+          <p>Likes</p> 
+        </div>
+        <div class="photos">
+          <h2>1.4k</h2>
+          <p>Photos</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Sorawit Phattharakundilok</a>.
+    </div>
 </body>
 </html>
